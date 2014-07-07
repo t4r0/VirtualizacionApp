@@ -13,3 +13,5 @@ C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\Virtualizaci
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.csproj.GenerateResource.Cache
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.exe
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.pdb
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnosAutomatico.baml
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnosAutomatico.g.cs

@@ -29,5 +29,10 @@ namespace VirtualizacionApp
         {
             new FrmAlumnos().Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            new FrmAlumnosAutomatico().Show();
+        }
     }
 }

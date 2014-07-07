@@ -58,6 +58,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FrmAlumnosAutomatico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,6 +72,9 @@
     </Compile>
     <Compile Include="FrmAlumnos.xaml.cs">
       <DependentUpon>FrmAlumnos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlumnosAutomatico.xaml.cs">
+      <DependentUpon>FrmAlumnosAutomatico.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -103,6 +110,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="server.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="apellidos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="nombres.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
