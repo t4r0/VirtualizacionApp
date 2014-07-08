@@ -15,3 +15,6 @@ C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\Virtualizaci
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.pdb
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnosAutomatico.baml
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnosAutomatico.g.cs
+C:\Users\jaquijivix\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.exe.config
+C:\Users\jaquijivix\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.exe
+C:\Users\jaquijivix\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.pdb
