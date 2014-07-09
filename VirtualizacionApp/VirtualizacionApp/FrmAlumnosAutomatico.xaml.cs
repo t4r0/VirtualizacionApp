@@ -68,7 +68,7 @@ namespace VirtualizacionApp
             }
             ReaderApellidos.Close();
             timerInsertar.Tick += new EventHandler(dispatcherTimer_Tick);
-            timerInsertar.Interval = new TimeSpan(0, 0, 10);
+            timerInsertar.Interval = new TimeSpan(0, 0, 5);
         }
 
 
