@@ -33,9 +33,7 @@ namespace VirtualizacionApp
         {
             try
             {
-                StreamReader objReader = new StreamReader(System.AppDomain.CurrentDomain.BaseDirectory + "/server.txt");
-                String cadenaConexion = objReader.ReadLine();
-                MySqlConnection conexion = new MySqlConnection(cadenaConexion);
+                MySqlConnection conexion = new MySqlConnection(FuncionesVarias.GetCadena());
                 conexion.Open();
                 MySqlCommand comando = new MySqlCommand("insert into Alumnos (Nombre, Apellido, FechaNacimiento) values (@nom,@ape,@fec)",conexion);
                 comando.Parameters.AddWithValue("@nom", txtNombre.Text);

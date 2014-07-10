@@ -20,3 +20,5 @@ C:\Users\jaquijivix\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\Virtual
 C:\Users\jaquijivix\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.pdb
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmCursos.baml
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmCursos.g.cs
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmConfiguracion.baml
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmConfiguracion.g.cs

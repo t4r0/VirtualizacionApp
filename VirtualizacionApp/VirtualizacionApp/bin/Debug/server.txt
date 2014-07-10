@@ -1,1 +1,4 @@
-﻿server=localhost;uid=root;pwd=Mysql123.;database=dbcursos;
+localhost
+root
+Mysql123.
+dbcursos
