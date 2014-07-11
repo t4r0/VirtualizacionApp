@@ -26,6 +26,7 @@ namespace VirtualizacionApp
         public FrmCursos()
         {
             InitializeComponent();
+            btn_detener.Visibility = Visibility.Hidden;
         }
 
         private void btn_ingresar_curso_Click(object sender, RoutedEventArgs e)
@@ -44,6 +45,24 @@ namespace VirtualizacionApp
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btn_automatico_Click(object sender, RoutedEventArgs e)
+        {
+            txt_credito.IsEnabled = false;
+            txt_curso.IsEnabled = false;
+            btn_ingresar_curso.Visibility = Visibility.Hidden;
+            btn_detener.Visibility = Visibility.Visible;
+
+
+        }
+
+        private void btn_detener_Click(object sender, RoutedEventArgs e)
+        {
+            txt_credito.IsEnabled = true;
+            txt_curso.IsEnabled = true;
+            btn_ingresar_curso.Visibility = Visibility.Visible;
+            btn_detener.Visibility = Visibility.Hidden;
         }
     }
 }

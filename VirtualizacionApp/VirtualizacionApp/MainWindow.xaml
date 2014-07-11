@@ -5,7 +5,8 @@
     <Grid>
         <Button Content="Alumnos" HorizontalAlignment="Left" Margin="60,65,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <Button Content="Alumnos automatico" HorizontalAlignment="Left" Margin="60,112,0,0" VerticalAlignment="Top" Width="165" Click="Button_Click_2"/>
-        <Button Content="Configuracion" HorizontalAlignment="Left" Margin="60,159,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_3"/>
+        <Button Content="Configuracion" HorizontalAlignment="Left" Margin="60,216,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_3"/>
+        <Button x:Name="btn_cursos" Content="Cursos" HorizontalAlignment="Left" Margin="60,162,0,0" VerticalAlignment="Top" Width="108" Click="btn_cursos_Click"/>
 
     </Grid>
 </Window>

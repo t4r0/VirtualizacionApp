@@ -7,10 +7,12 @@
             <Label Content="Ingreso de Cursos" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Foreground="#FFF3F0F0" FontSize="22"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="11" Margin="0,249,0,0" VerticalAlignment="Top" Width="495" Background="#FF9B9191"/>
-        <Label Content="Curso:" HorizontalAlignment="Left" Margin="42,83,0,0" VerticalAlignment="Top"/>
-        <Label Content="Créditos:" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_curso" Content="Curso:" HorizontalAlignment="Left" Margin="42,83,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_creditos" Content="Créditos:" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txt_curso" HorizontalAlignment="Left" Height="23" Margin="90,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="375"/>
         <TextBox x:Name="txt_credito" HorizontalAlignment="Left" Height="23" Margin="90,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btn_ingresar_curso" Content="Ingresar" HorizontalAlignment="Left" Margin="153,174,0,0" VerticalAlignment="Top" Width="176" Click="btn_ingresar_curso_Click"/>
+        <Button x:Name="btn_automatico" Content="Automático" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="139" Click="btn_automatico_Click"/>
+        <Button x:Name="btn_detener" Content="Detener" HorizontalAlignment="Left" Margin="346,222,0,0" VerticalAlignment="Top" Width="139" Click="btn_detener_Click"/>
     </Grid>
 </Window>

@@ -39,5 +39,10 @@ namespace VirtualizacionApp
         {
             new FrmConfiguracion().Show();
         }
+
+        private void btn_cursos_Click(object sender, RoutedEventArgs e)
+        {
+            new FrmCursos().Show();
+        }
     }
 }
