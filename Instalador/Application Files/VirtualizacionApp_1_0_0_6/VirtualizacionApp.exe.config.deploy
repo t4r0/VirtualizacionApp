@@ -16,6 +16,9 @@ root
 Mysql123.
 dbcursos</value>
             </setting>
+            <setting name="Intervalo" serializeAs="String">
+                <value>5</value>
+            </setting>
         </VirtualizacionApp.Properties.Settings>
     </userSettings>
 </configuration>
