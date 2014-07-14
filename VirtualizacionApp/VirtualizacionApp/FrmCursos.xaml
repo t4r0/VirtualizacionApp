@@ -1,7 +1,6 @@
 ﻿<Window x:Class="VirtualizacionApp.FrmCursos"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="FrmCursos" Height="290" Width="503">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="290" Width="503">
     <Grid>
         <Grid HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="495" Background="#FF1D77C1">
             <Label Content="Ingreso de Cursos" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Foreground="#FFF3F0F0" FontSize="22"/>

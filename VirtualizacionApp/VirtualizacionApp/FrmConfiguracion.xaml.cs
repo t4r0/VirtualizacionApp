@@ -28,15 +28,12 @@ namespace VirtualizacionApp
 
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
         {
-            StreamReader objReader = new StreamReader(System.AppDomain.CurrentDomain.BaseDirectory + "/server.txt");
-            String cadenaConexion = objReader.ReadLine();
+            String[] tmpConexion = Properties.Settings.Default.Cadena.Split('\n');
             ArrayList parametros = new ArrayList();
-            while (cadenaConexion != null)
+            for (int i = 0; i < tmpConexion.Length; i++)
             {
-                parametros.Add(cadenaConexion);
-                cadenaConexion = objReader.ReadLine();
+                parametros.Add(tmpConexion[i]);
             }
-            objReader.Close();
             txtServer.Text = parametros[0].ToString();
             txtUsuario.Text = parametros[1].ToString();
             txtPassword.Password = parametros[2].ToString();
@@ -45,12 +42,9 @@ namespace VirtualizacionApp
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            StreamWriter nuevo = new StreamWriter(System.AppDomain.CurrentDomain.BaseDirectory + "/server.txt");
-            nuevo.WriteLine(txtServer.Text);
-            nuevo.WriteLine(txtUsuario.Text);
-            nuevo.WriteLine(txtPassword.Password);
-            nuevo.WriteLine(txtDatabase.Text);
-            nuevo.Close();
+            Properties.Settings.Default.Cadena = txtServer.Text + "\n" + txtUsuario.Text + "\n" + txtPassword.Password + "\n" + txtDatabase.Text;
+            Properties.Settings.Default.Save();
+            this.Close();
         }
     }
 }

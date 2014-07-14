@@ -11,15 +11,12 @@ namespace VirtualizacionApp
     static class FuncionesVarias
     {
         public static String GetCadena(){
-            StreamReader objReader = new StreamReader(System.AppDomain.CurrentDomain.BaseDirectory + "/server.txt");
-            String cadenaConexion = objReader.ReadLine();
-            ArrayList parametros= new ArrayList();
-            while (cadenaConexion != null)
+            String[] tmpConexion = Properties.Settings.Default.Cadena.Split('\n');
+            ArrayList parametros = new ArrayList();
+            for (int i = 0; i < tmpConexion.Length; i++)
             {
-                parametros.Add(cadenaConexion);
-                cadenaConexion = objReader.ReadLine();
+                parametros.Add(tmpConexion[i]);
             }
-            objReader.Close();
             return "server=" + parametros[0].ToString() + ";uid=" + parametros[1].ToString() + ";pwd=" 
                 + parametros[2].ToString() + ";database=" + parametros[3].ToString()+";";
         }

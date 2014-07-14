@@ -43,3 +43,9 @@ C:\Users\jaquijivix\Documents\GitHub\proyecto\VirtualizacionApp\VirtualizacionAp
 C:\Users\jaquijivix\Documents\GitHub\proyecto\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.g.resources
 C:\Users\jaquijivix\Documents\GitHub\proyecto\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.Properties.Resources.resources
 C:\Users\jaquijivix\Documents\GitHub\proyecto\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.csproj.GenerateResource.Cache
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmCursosAutomatico.baml
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmCursosAutomatico.g.cs
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.exe.manifest
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.application
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.exe.manifest
+C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.application

@@ -51,22 +51,16 @@ namespace VirtualizacionApp
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
         {
             //carga datos de los archivos de texto
-            StreamReader ReaderNombres = new StreamReader(System.AppDomain.CurrentDomain.BaseDirectory + "/nombres.txt");
-            StreamReader ReaderApellidos = new StreamReader(System.AppDomain.CurrentDomain.BaseDirectory + "/apellidos.txt");
-            String linea = ReaderNombres.ReadLine();
-            while (linea != null)
+            String[] tmpNombres = Properties.Resources.nombres.Split('\n');
+            for (int i = 0; i < tmpNombres.Length; i++)
             {
-                nombres.Add(linea);
-                linea = ReaderNombres.ReadLine();
+                nombres.Add(tmpNombres[i]);
             }
-            ReaderNombres.Close();
-            linea = ReaderApellidos.ReadLine();
-            while (linea != null)
+            String[] tmpApellidos = Properties.Resources.apellidos.Split('\n');
+            for (int i = 0; i < tmpApellidos.Length; i++)
             {
-                apellidos.Add(linea);
-                linea = ReaderApellidos.ReadLine();
+                apellidos.Add(tmpApellidos[i]);
             }
-            ReaderApellidos.Close();
             timerInsertar.Tick += new EventHandler(dispatcherTimer_Tick);
             timerInsertar.Interval = new TimeSpan(0, 0, 5);
         }

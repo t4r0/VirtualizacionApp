@@ -44,5 +44,15 @@ namespace VirtualizacionApp
         {
             new FrmCursos().Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            new FrmCursosAutomatico().Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(Properties.Resources.cursos);
+        }
     }
 }
