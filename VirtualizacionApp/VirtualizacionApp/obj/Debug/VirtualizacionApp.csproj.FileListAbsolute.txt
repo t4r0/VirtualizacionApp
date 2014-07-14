@@ -1,7 +1,6 @@
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.exe.config
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.exe
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\bin\Debug\VirtualizacionApp.pdb
-C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\VirtualizacionApp.csprojResolveAssemblyReference.cache
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnos.baml
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\MainWindow.baml
 C:\Users\Chejo\Documents\GitHub\VirtualizacionApp\VirtualizacionApp\VirtualizacionApp\obj\Debug\FrmAlumnos.g.cs
