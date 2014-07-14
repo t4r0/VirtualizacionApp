@@ -34,5 +34,17 @@ namespace VirtualizacionApp.Properties {
                 this["Cadena"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public int Intervalo {
+            get {
+                return ((int)(this["Intervalo"]));
+            }
+            set {
+                this["Intervalo"] = value;
+            }
+        }
     }
 }

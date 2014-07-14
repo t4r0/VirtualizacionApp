@@ -47,24 +47,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VirtualizacionApp.exe" size="33792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VirtualizacionApp.exe" size="34816">
       <assemblyIdentity name="VirtualizacionApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EO9U9MFMS17Kn0//AJTZAGmfqx9fUN/KuadF5IF3qtE=</dsig:DigestValue>
+        <dsig:DigestValue>yJGvQk/CJyszH6x42fJmRWTCxzhUyTzmf6r4fREwYDI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="VirtualizacionApp.exe.config" size="975">
+  <file name="VirtualizacionApp.exe.config" size="1094">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xC4PgaIOA3kRVVWLxMxKnU04KA5t6c984jpbeVS+xtY=</dsig:DigestValue>
+      <dsig:DigestValue>XTOF+Nd1lEhLrtJ0OTvfC6tCfLByJRSDIeRhPUCXDJM=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

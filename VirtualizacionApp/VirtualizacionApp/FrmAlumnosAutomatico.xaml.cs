@@ -62,7 +62,7 @@ namespace VirtualizacionApp
                 apellidos.Add(tmpApellidos[i]);
             }
             timerInsertar.Tick += new EventHandler(dispatcherTimer_Tick);
-            timerInsertar.Interval = new TimeSpan(0, 0, 5);
+            timerInsertar.Interval = new TimeSpan(0, 0, Properties.Settings.Default.Intervalo);
         }
 
 
